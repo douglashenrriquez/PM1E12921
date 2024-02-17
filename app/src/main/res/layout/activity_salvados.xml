@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E3E3E"
+    android:orientation="vertical"
+    tools:context=".ActivityList">
+
+    <Button
+        android:id="@+id/btnatras"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnatras" />
+
+    <SearchView
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="59dp">
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listpersonas"
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+        android:listSelector="?attr/colorOutline" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <Button
+            android:id="@+id/btncompartir"
+            android:layout_width="190dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/btncompartir"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btneliminar"
+            android:layout_width="188dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/btneliminar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btncompartir" />
+
+        <Button
+            android:id="@+id/btnverimagen"
+            android:layout_width="180dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/btnverimagen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnactualizar"
+            android:layout_width="183dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/btnactualizar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnverimagen"
+            tools:ignore="TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

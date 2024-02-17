@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PM1E12921</string>
+    <string name="nombre">Ingrese Nombre</string>
+    <string name="telefono">Ingrese Telefono</string>
+    <string name="btnsalvar">Salvar Contacto</string>
+    <string name="btnsalvados">Contactos Salvados</string>
+    <string name="btnatras">Atras</string>
+    <string name="btncompartir">Compartir Contacto</string>
+    <string name="btneliminar">Eliminar Contacto</string>
+    <string name="btnverimagen">Ver Imagen</string>
+    <string name="btnactualizar">Actualizar Contacto</string>
+    <string name="btnatras2">Atras</string>
+    <string name="btnatras3">Atras</string>
+    <string name="btnfoto">Foto</string>
+    <string name="btnLlamada">Llamar</string>
+</resources>
